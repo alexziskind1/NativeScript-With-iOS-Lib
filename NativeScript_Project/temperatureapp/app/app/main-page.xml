@@ -1,0 +1,26 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="pageLoaded">
+  <StackLayout>
+      <WrapLayout>
+            <Label text="Enter temp:" cssClass="title"/>
+            <Border cornerRadius="3" borderWidth="1" borderColor="#CCCCCC">
+                <TextField id="tempInput" hint="Temp" text="{{ origTemp }}" />
+            </Border>
+      </WrapLayout>
+      
+      <StackLayout orientation="horizontal">
+          <Border cornerRadius="3" borderWidth="1" borderColor="#333333" style="background-color:azure;">
+            <Button text="F to C" tap="{{ tapFtoC }}"  />
+          </Border>
+        <Border cornerRadius="3" borderWidth="1" borderColor="#333333" style="background-color:aliceblue;">
+            <Button text="C to F" tap="{{ tapCtoF }}"  />
+        </Border>
+      </StackLayout>
+      
+      <WrapLayout>
+          <Label text="Result: " cssClass="title"/>
+          <Label text="{{ result }}" cssClass="title"/>
+      </WrapLayout>
+    
+      
+  </StackLayout>
+</Page>
