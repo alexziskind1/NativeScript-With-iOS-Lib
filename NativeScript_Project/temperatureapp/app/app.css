@@ -1,0 +1,22 @@
+﻿.title {
+    font-size: 30;
+    horizontal-align: center;
+    margin:20;
+}
+
+button {
+    font-size: 42;
+    horizontal-align: center;
+    padding: 5;
+    margin: 5;
+}
+
+
+stacklayout {
+    horizontal-align: center;
+    margin: 5;
+}
+
+border {
+     margin: 5;
+}

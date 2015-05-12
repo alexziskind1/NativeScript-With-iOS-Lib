@@ -1,0 +1,6 @@
+framework module TemperatureConverterFramework {
+  umbrella header "TemperatureConverterFramework.h"
+
+  export *
+  module * { export * }
+}

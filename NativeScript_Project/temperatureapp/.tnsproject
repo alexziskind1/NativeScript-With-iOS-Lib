@@ -1,6 +1,6 @@
 {
-	"id": "org.nativescript.temperatureapp",
+	"id": "org.nativescript.tempproj",
 	"tns-ios": {
-		"version": "0.9.1"
+		"version": "1.0.1"
 	}
 }
